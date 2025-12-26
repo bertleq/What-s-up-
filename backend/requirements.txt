@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+requests
+beautifulsoup4
+newspaper3k
+praw
+numpy
+scikit-learn
+python-dotenv
+openai
+google-generativeai
+lxml_html_clean
+rank_bm25

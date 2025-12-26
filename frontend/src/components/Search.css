@@ -1,0 +1,83 @@
+.search-container {
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #000;
+    overflow-y: auto;
+    padding-bottom: 80px;
+    /* Nav space */
+}
+
+.search-form {
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.search-input {
+    flex: 1;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    background: #222;
+    color: #fff;
+    font-size: 1.1rem;
+    outline: none;
+}
+
+.search-button {
+    margin-left: 10px;
+    padding: 0 20px;
+    border-radius: 25px;
+    border: none;
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.llm-answer {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.llm-answer h3 {
+    margin-top: 0;
+    color: #aaa;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.llm-answer p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.related-articles h3 {
+    color: #aaa;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.related-card {
+    background: #111;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border-left: 3px solid #444;
+}
+
+.related-card h4 {
+    margin: 0 0 5px 0;
+    font-size: 1rem;
+}
+
+.related-card p {
+    margin: 0;
+    color: #888;
+    font-size: 0.9rem;
+}
